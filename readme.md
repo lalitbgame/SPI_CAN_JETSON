@@ -23,10 +23,8 @@ By default, the CAN pins on the 40-pin header are not enabled in the device tree
 ```bash
 sudo /opt/nvidia/jetson-io/jetson-io.py
 
-```bash
 # Install Python CAN library
 pip3 install python-can --break-system-packages
 
-```bash
 # Install Linux CAN debugging utilities
 sudo apt-get update && sudo apt-get install can-utils
